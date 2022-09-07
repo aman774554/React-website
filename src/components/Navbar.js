@@ -30,7 +30,13 @@ const Navbar = (props) => {
 				<li className="nav-item nav-link">
       <NavLink to="/search">Search</NavLink>
         </li>
-			
+				<li className="nav-item nav-link">
+        <NavLink to="/todo">Todo</NavLink>
+        </li>
+				<li className="nav-item nav-link">
+        <NavLink to="/listshow">ListShow</NavLink>
+        </li>
+
 
 
       </ul>
